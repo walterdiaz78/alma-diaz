@@ -353,6 +353,12 @@ section {
   
 }
 
+.footer__creator:hover{
+  transition: all 300ms ease-in-out;
+  transform: scale(1.2);
+}
+
+
 @media (max-width: 890px) {
   .logo {
   right: -10px;
