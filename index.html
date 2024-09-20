@@ -12,6 +12,8 @@
 
   <link rel="icon" href="/assets/img/favicon.png" type="image/png">
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <title>Aprende con alma</title>
 </head>
 <body class="blue-mode">
@@ -26,7 +28,7 @@
   
   <div id="tsparticles"></div>
   <section>
-    <div class="content">
+    <div class="content" data-aos="fade-right" data-aos-duration="2000">
       <div class="title__container">
         <img src="./assets/img/alma-diaz.jpg" alt="Alma Diaz" class="perfil">
         <h1>¡Aprende con Alma!</h1>
@@ -38,7 +40,7 @@
       <button><a href="https://wa.me/5491136798819" target="_blank" style="color: inherit; text-decoration: none;">Contactame por WhatsApp</a></button>
     </div>
     
-    <div class="swiper">
+    <div class="swiper" data-aos="fade-left" data-aos-duration="2000">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <img src="./assets/img/ingles33.png" alt="Clases individuales">
@@ -114,6 +116,12 @@
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   <script src="./assets/js/script.js"></script>
 </body>

@@ -119,22 +119,39 @@ h2{
   cursor: pointer;
   transition: background-color 0.3s;
   border: 2px solid #fff;
+  
 }
 
 .circle.blue-mode {
   background-color: #162561;
+  
+}
+.circle.blue-mode:hover{
+  transition: all 300ms ease-in-out;
+  transform: scale(1.1);
 }
 
 .circle.pink-mode {
   background-color: #ff69b4; 
 }
-
+.circle.pink-mode:hover{
+  transition: all 300ms ease-in-out;
+  transform: scale(1.1);
+}
 .circle.dark-mode {
   background-color: #333; 
+}
+.circle.dark-mode:hover{
+  transition: all 300ms ease-in-out;
+  transform: scale(1.1);
 }
 
 .circle.light-mode {
   background-color: #f0f0f0; 
+}
+.circle.light-mode:hover{
+  transition: all 300ms ease-in-out;
+  transform: scale(1.1);
 }
 /* xxxxxxxxxxxxxxx */
 
@@ -190,7 +207,7 @@ section {
 }
 
 .content button:is(:hover, :focus) {
-  transform: scale(0.98);
+  transform: scale(1.1);
   background-color: #6f7aa6;
   color: #eaeaea;
 }
@@ -289,10 +306,19 @@ section {
   right: 15px;
   bottom: 10px;
   z-index: 10;
+  
+  
 }
 
 .logo img {
   width: 70px;
+  
+}
+
+.logo img:hover{
+  transition: all 300ms ease-in-out;
+  transform: scale(1.2);
+
 }
 
 .action {
